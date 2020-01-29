@@ -1,2 +1,3 @@
-# Ignore all csv files
+# Ignore all csv files - 
+# No need of the csv files
 *.csv
