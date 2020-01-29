@@ -31,11 +31,12 @@ def get_filters():
     #get user input for month (all, january, february, ... , june)
     month = get_user_input('All right! now it\'s time to provide us a month name '\
                     'or just say \'all\' to apply no month filter. \n(e.g. all, january, february, march, april, may, june) \n> ', MONTHS)
+	print("month entered by user" ,month)
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = get_user_input('One last thing. Could you type one of the week day you want to analyze?'\
                    ' You can type \'all\' again to apply no day filter. \n(e.g. all, monday, sunday) \n> ', DAYS)
-
+	print("day entered by user" ,day)
     print('-'*40)
     return city, month, day
 
